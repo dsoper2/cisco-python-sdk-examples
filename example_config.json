@@ -1,0 +1,10 @@
+{
+    "ip": "172.16.143.249",
+    "pw": "ucspe",
+    "secure": "True",
+    "user": "ucspe",
+    "remote_ip": "172.16.143.240",
+    "remote_share": "/mnt/SHARE/ISOS/HUU/ucs-c220m4-huu-3.0.0.338.iso",
+    "share_type": "nfs"
+}
+
