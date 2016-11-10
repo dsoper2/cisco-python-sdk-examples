@@ -1,0 +1,53 @@
+{
+    "installer_pool": [
+        {
+            "rack_id": "1"
+        }
+    ],
+    "controller_pool": [
+        {
+            "chassis": "3",
+            "slot": "1"
+        },
+        {
+            "chassis": "3",
+            "slot": "3"
+        }
+    ],
+    "storage_pool": [
+        {
+            "chassis": "6",
+            "slot": "1"
+        },
+        {
+            "chassis": "4",
+            "slot": "1"
+        },
+        {
+            "chassis": "4",
+            "slot": "2"
+        }
+    ],
+    "compute_pool": [
+        {
+            "chassis": "5",
+            "slot": "1"
+        },
+        {
+            "chassis": "5",
+            "slot": "2"
+        },
+        {
+            "chassis": "5",
+            "slot": "3"
+        },
+        {
+            "chassis": "5",
+            "slot": "4"
+        }
+    ],
+    "ip": "172.16.143.133",
+    "pw": "ucspe",
+    "secure": "True",
+    "user": "ucspe"
+}

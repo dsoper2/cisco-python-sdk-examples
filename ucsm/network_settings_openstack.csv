@@ -1,0 +1,15 @@
+org,MAC_pool,MAC_From,MAC_To,VLAN,VLAN_ID,vNIC_Template,vNIC_Fabric,vNIC_VLAN,vNIC_Native_VLAN,vNIC_MTU,vNIC_MAC,LAN_Policy,vNIC_Name,vNIC_Order,LAN_Policy_vNIC_Template
+,MAC_Pool_A,00:25:B5:00:0A:00,00:25:B5:00:0A:FF,,,,,,,,,,,,
+,MAC_Pool_B,00:25:B5:00:0B:00,00:25:B5:00:0B:FF,,,,,,,,,,,,
+,,,,Management-,10,Management_A,A-B,Management-10,no,1500,MAC_Pool_A,ComptrollerLAN,Management,4,Management_A
+,,,,,,,,,,,,InstallerLAN,Management,2,Management_A
+,,,,PXE-,20,PXE_Template_A,A-B,PXE-20,yes,1500,MAC_Pool_A,ComptrollerLAN,PXE,1,PXE_Template_A
+,,,,,,,,,,,,InstallerLAN,PXE,1,PXE_Template_A
+,,,,Swift-,50,,,,,,,,,,
+,,,,Swift-,51,,,,,,,,,,
+,,,,NFS-,30,NS_Template_A,A,"""NFS-30, Swift-50, Swift-51""",no,9000,MAC_Pool_A,ComptrollerLAN,NS-A,2,NS_Template_A
+,,,,,,NS_Template_B,B,"""NFS-30, Swift-50, Swift-51""",no,9000,MAC_Pool_B,ComptrollerLAN,NS-B,3,NS_Template_B
+,,,,External-,215,Ext_Template,B-A,External-215,no,1500,MAC_Pool_B,InstallerLAN,External,3,Ext_Template
+,,,,Provider-,60-69,,,,,,,,,,
+,,,,Tenant-,70-200,VM_Traffic,B-A,"""Provider-60,Provider-61,Provider-62,Provider-63,Provider-64,Provider-65,Provider-66,Provider-67,Provider-68,Provider-69,Tenant-70,Tenant-71,Tenant-72,Tenant-73,Tenant-74,Tenant-75,Tenant-76,Tenant-77,Tenant-78,Tenant-79,Tenant-80,Tenant-81,Tenant-82,Tenant-83,Tenant-84,Tenant-85,Tenant-86,Tenant-87,Tenant-88,Tenant-89,Tenant-90,Tenant-91,Tenant-92,Tenant-93,Tenant-94,Tenant-95,Tenant-96,Tenant-97,Tenant-98,Tenant-99,Tenant-100,Tenant-101,Tenant-102,Tenant-103,Tenant-104,Tenant-105,Tenant-106,Tenant-107,Tenant-108,Tenant-109,Tenant-110,Tenant-111,Tenant-112,Tenant-113,Tenant-114,Tenant-115,Tenant-116,Tenant-117,Tenant-118,Tenant-119,Tenant-120,Tenant-121,Tenant-122,Tenant-123,Tenant-124,Tenant-125,Tenant-126,Tenant-127,Tenant-128,Tenant-129,Tenant-130,Tenant-131,Tenant-132,Tenant-133,Tenant-134,Tenant-135,Tenant-136,Tenant-137,Tenant-138,Tenant-139,Tenant-140,Tenant-141,Tenant-142,Tenant-143,Tenant-144,Tenant-145,Tenant-146,Tenant-147,Tenant-148,Tenant-149,Tenant-150,Tenant-151,Tenant-152,Tenant-153,Tenant-154,Tenant-155,Tenant-156,Tenant-157,Tenant-158,Tenant-159,Tenant-160,Tenant-161,Tenant-162,Tenant-163,Tenant-164,Tenant-165,Tenant-166,Tenant-167,Tenant-168,Tenant-169,Tenant-170,Tenant-171,Tenant-172,Tenant-173,Tenant-174,Tenant-175,Tenant-176,Tenant-177,Tenant-178,Tenant-179,Tenant-180,Tenant-181,Tenant-182,Tenant-183,Tenant-184,Tenant-185,Tenant-186,Tenant-187,Tenant-188,Tenant-189,Tenant-190,Tenant-191,Tenant-192,Tenant-193,Tenant-194,Tenant-195,Tenant-196,Tenant-197,Tenant-198,Tenant-199,Tenant-200,External-215""",no,1500,MAC_Pool_B,ComptrollerLAN,VM-Traffic,5,VM_Traffic
+,,,,MCAS-,21,MCAS_Template_A,A-B,MCAS-21,no,1500,MAC_Pool_A,ComptrollerLAN,MCAS,6,MCAS_Template_A

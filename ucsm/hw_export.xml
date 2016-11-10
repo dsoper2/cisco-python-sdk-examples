@@ -1,0 +1,1181 @@
+<apeXml>
+
+<fiConfig pid="UCS-FI-6332-16UP|Cisco Systems, Inc." side="A" key="11">
+    
+    <psuConfig slot="1" pid="UCS-PSU-6332-AC|Cisco Systems, Inc."></psuConfig>
+    
+    <psuConfig slot="2" pid="UCS-PSU-6332-AC|Cisco Systems, Inc."></psuConfig>
+    
+    
+    <fanConfig slot="1" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="2" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="3" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="4" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+</fiConfig>
+
+<fiConfig pid="UCS-FI-6332-16UP|Cisco Systems, Inc." side="B" key="12">
+    
+    <psuConfig slot="1" pid="UCS-PSU-6332-AC|Cisco Systems, Inc."></psuConfig>
+    
+    <psuConfig slot="2" pid="UCS-PSU-6332-AC|Cisco Systems, Inc."></psuConfig>
+    
+    
+    <fanConfig slot="1" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="2" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="3" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="4" pid="UCS-FAN-6332|Cisco Systems, Inc."></fanConfig>
+    
+</fiConfig>
+
+
+
+<chassisConfig pid="UCSB-5108-AC2|Cisco Systems Inc" name="chassis2" key="29" peer="fi">
+    
+    <iomConfig slot="1" pid="UCS-IOM-2304|Cisco Systems Inc" key="21">
+        
+        <iomFiLink port="1" slot="1" peerPort="29" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="2" slot="1" peerPort="30" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="3" slot="1" peerPort="31" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="4" slot="1" peerPort="32" peerSlot="1" side="A" peerId="11"/>
+        
+    </iomConfig>
+    
+    <iomConfig slot="2" pid="UCS-IOM-2304|Cisco Systems Inc" key="22">
+        
+        <iomFiLink port="1" slot="2" peerPort="29" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="2" slot="2" peerPort="30" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="3" slot="2" peerPort="31" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="4" slot="2" peerPort="32" peerSlot="1" side="B" peerId="12"/>
+        
+    </iomConfig>
+    
+    
+    
+    
+    
+    <psuConfig slot="1" pid="UCSB-PSU-2500ACDV|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="2" pid="UCSB-PSU-2500ACDV|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="3" pid="UCSB-PSU-2500ACDV|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="4" pid="UCSB-PSU-2500ACDV|Cisco Systems Inc"></psuConfig>
+    
+    
+        
+    <serverConfig slot="1" pid="UCSB-EX-M4-1|Cisco Systems Inc" key="72">
+        
+<diskConfig slot="1" pid="UCS-HD450G15K12G|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-HD450G15K12G|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="17" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="18" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="19" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="20" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="21" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="22" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="23" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="24" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="25" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="26" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="27" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="28" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="29" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="30" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="31" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="32" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E72880B|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E72880B|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    <serverConfig slot="3" pid="UCSB-EX-M4-1|Cisco Systems Inc" key="86">
+        
+<diskConfig slot="1" pid="UCS-HD450G15K12G|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-HD450G15K12G|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="17" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="18" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="19" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="20" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="21" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="22" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="23" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="24" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="25" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="26" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="27" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="28" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="29" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="30" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="31" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+<memoryConfig slot="32" pid="UCS-MR-1X322RU-A|0xAD00"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E72880B|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E72880B|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    
+</chassisConfig>
+
+<chassisConfig pid="UCSC-C3X60|Cisco Systems Inc" name="chassis3" key="30" peer="fi">
+    
+    
+    <siocConfig slot="1" pid="UCSC-C3260-SIOC|Cisco Systems Inc" key="23">
+        
+        <siocFiLink port="1" slot="1" peerPort="1" peerSlot="1" side="A" peerId="11"/>
+        
+        <siocFiLink port="2" slot="1" peerPort="1" peerSlot="1" side="B" peerId="12"/>
+        
+        
+    </siocConfig>    
+    
+    <siocConfig slot="2" pid="UCSC-C3260-SIOC|Cisco Systems Inc" key="24">
+        
+        <siocFiLink port="1" slot="2" peerPort="2" peerSlot="1" side="A" peerId="11"/>
+        
+        <siocFiLink port="2" slot="2" peerPort="2" peerSlot="1" side="B" peerId="12"/>
+        
+        
+    </siocConfig>    
+    
+    
+    <diskConfig slot="1" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="2" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="3" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="4" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="5" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="6" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="7" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="8" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="9" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="10" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="11" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="12" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="13" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="14" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="15" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="16" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="17" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="18" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="19" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="20" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="21" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="22" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="23" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="24" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="25" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="26" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="27" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="28" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="29" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="30" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="31" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="32" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="33" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="34" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="35" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="36" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="37" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="38" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="39" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="40" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="41" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="42" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="43" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="44" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="45" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="46" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="47" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="48" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="49" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="50" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="51" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="52" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="53" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="54" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="55" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    <diskConfig slot="56" pid="UCS-C3X60-G2SD160|ATA"></diskConfig>
+    
+    
+    
+    <psuConfig slot="1" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="2" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="3" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="4" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    
+        
+    <serverConfig slot="1" pid="UCSC-C3K-M4SRB|Cisco Systems Inc" key="84">
+        
+<diskConfig slot="1" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+
+
+
+
+<controllerConfig slot="1" pid="Patsburg Dual 4-Port SATA SAS Storage Control Unit SKU ROM 5|Intel Corp."></controllerConfig>
+
+<controllerConfig slot="2" pid="UCS-C3K-M4RAID|Cisco Systems Inc"></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    <serverConfig slot="2" pid="UCSC-C3K-M4SRB|Cisco Systems Inc" key="85">
+        
+<diskConfig slot="1" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+
+
+
+
+<controllerConfig slot="1" pid="Patsburg Dual 4-Port SATA SAS Storage Control Unit SKU ROM 5|Intel Corp."></controllerConfig>
+
+<controllerConfig slot="2" pid="UCS-C3K-M4RAID|Cisco Systems Inc"></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    
+</chassisConfig>
+
+<chassisConfig pid="N20-C6508|Cisco Systems Inc" name="chassis1" key="31" peer="fi">
+    
+    <iomConfig slot="1" pid="UCS-IOM-2304|Cisco Systems Inc" key="23">
+        
+        <iomFiLink port="1" slot="1" peerPort="25" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="2" slot="1" peerPort="26" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="3" slot="1" peerPort="27" peerSlot="1" side="A" peerId="11"/>
+        
+        <iomFiLink port="4" slot="1" peerPort="28" peerSlot="1" side="A" peerId="11"/>
+        
+    </iomConfig>
+    
+    <iomConfig slot="2" pid="UCS-IOM-2304|Cisco Systems Inc" key="24">
+        
+        <iomFiLink port="1" slot="2" peerPort="25" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="2" slot="2" peerPort="26" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="3" slot="2" peerPort="27" peerSlot="1" side="B" peerId="12"/>
+        
+        <iomFiLink port="4" slot="2" peerPort="28" peerSlot="1" side="B" peerId="12"/>
+        
+    </iomConfig>
+    
+    
+    
+    
+    
+    <psuConfig slot="1" pid="UCSB-PSU-2500ACPL|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="2" pid="UCSB-PSU-2500ACPL|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="3" pid="UCSB-PSU-2500ACPL|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="4" pid="UCSB-PSU-2500ACPL|Cisco Systems Inc"></psuConfig>
+    
+    
+        
+    <serverConfig slot="1" pid="UCSB-B200-M4|Cisco Systems Inc" key="78">
+        
+<diskConfig slot="1" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    <serverConfig slot="2" pid="UCSB-B200-M4|Cisco Systems Inc" key="87">
+        
+<diskConfig slot="1" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    <serverConfig slot="3" pid="UCSB-B200-M4|Cisco Systems Inc" key="88">
+        
+<diskConfig slot="1" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    <serverConfig slot="4" pid="UCSB-B200-M4|Cisco Systems Inc" key="89">
+        
+<diskConfig slot="1" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-SD400GBK9|TOSHIBA"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSB-MLOM-40G-01|Cisco Systems Inc">
+    
+    
+</adaptorConfig>
+
+
+
+<controllerConfig slot="1" pid="UCS-RAID-9265CV|LSI Corp."></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-ML-1X324RY-A|0x80CE"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    
+</chassisConfig>
+
+<chassisConfig pid="UCSC-C3X60|Cisco Systems Inc" name="chassis4" key="32" peer="fi">
+    
+    
+    <siocConfig slot="1" pid="UCSC-C3260-SIOC|Cisco Systems Inc" key="25">
+        
+        <siocFiLink port="1" slot="1" peerPort="3" peerSlot="1" side="A" peerId="11"/>
+        
+        <siocFiLink port="2" slot="1" peerPort="3" peerSlot="1" side="B" peerId="12"/>
+        
+        
+    </siocConfig>    
+    
+    
+    <diskConfig slot="1" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="2" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="3" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="4" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="5" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="6" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="7" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="8" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="9" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="10" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="11" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="12" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="13" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="14" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="15" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="16" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="17" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="18" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="19" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="20" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="21" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="22" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="23" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="24" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="25" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="26" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="27" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="28" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="29" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="30" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="31" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="32" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="33" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="34" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="35" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="36" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="37" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="38" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="39" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="40" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="41" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="42" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="43" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="44" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="45" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="46" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="47" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="48" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="49" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="50" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="51" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="52" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="53" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="54" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="55" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="56" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="57" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="58" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="59" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    <diskConfig slot="60" pid="UCS-HD6T7KL4K|HGST"></diskConfig>
+    
+    
+    
+    <psuConfig slot="1" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="2" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="3" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="4" pid="UCSC-PSU1-1050W|Cisco Systems Inc"></psuConfig>
+    
+    
+        
+    <serverConfig slot="1" pid="UCSC-C3K-M4SRB|Cisco Systems Inc" key="83">
+        
+<diskConfig slot="1" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-C3X60-G2SD12|ATA"></diskConfig>
+
+
+
+
+
+<controllerConfig slot="1" pid="Patsburg Dual 4-Port SATA SAS Storage Control Unit SKU ROM 5|Intel Corp."></controllerConfig>
+
+<controllerConfig slot="2" pid="UCS-C3K-M4RAID|Cisco Systems Inc"></controllerConfig>
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X322RV-A|0x802C"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52680E|Intel(R) Corporation"></processorConfig>
+
+
+    </serverConfig>        
+        
+    
+</chassisConfig>
+
+
+
+<fexConfig pid="N2K-C2348UPQ-10GE|Cisco Systems" side="A" name="fex1" key="11">
+    
+    <fexFiLink port="1" slot="1" peerPort="17" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="2" slot="1" peerPort="18" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="3" slot="1" peerPort="19" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="4" slot="1" peerPort="20" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="5" slot="1" peerPort="21" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="6" slot="1" peerPort="22" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="7" slot="1" peerPort="23" peerSlot="1" side="A" peerId="11"/>
+    
+    <fexFiLink port="8" slot="1" peerPort="24" peerSlot="1" side="A" peerId="11"/>
+    
+    
+    <psuConfig slot="1" pid="NXK-PAC-400W |Cisco Systems, Inc."></psuConfig>
+    
+    <psuConfig slot="2" pid="NXK-PAC-400W |Cisco Systems, Inc."></psuConfig>
+    
+    
+    <fanConfig slot="1" pid="N2K-2348UPQ-FAN|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="2" pid="N2K-2348UPQ-FAN|Cisco Systems, Inc."></fanConfig>
+    
+</fexConfig>
+
+<fexConfig pid="N2K-C2348UPQ-10GE|Cisco Systems" side="B" name="fex2" key="12">
+    
+    <fexFiLink port="1" slot="1" peerPort="17" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="2" slot="1" peerPort="18" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="3" slot="1" peerPort="19" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="4" slot="1" peerPort="20" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="5" slot="1" peerPort="21" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="6" slot="1" peerPort="22" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="7" slot="1" peerPort="23" peerSlot="1" side="B" peerId="12"/>
+    
+    <fexFiLink port="8" slot="1" peerPort="24" peerSlot="1" side="B" peerId="12"/>
+    
+    
+    <psuConfig slot="1" pid="N2200-PAC-400W|Cisco Systems, Inc."></psuConfig>
+    
+    <psuConfig slot="2" pid="N2200-PAC-400W|Cisco Systems, Inc."></psuConfig>
+    
+    
+    <fanConfig slot="1" pid="N2K-2348UPQ-FAN|Cisco Systems, Inc."></fanConfig>
+    
+    <fanConfig slot="2" pid="N2K-2348UPQ-FAN|Cisco Systems, Inc."></fanConfig>
+    
+</fexConfig>
+
+
+
+<rackConfig pid="UCSC-C220-M4S|Cisco Systems Inc" name="DUPLRack5" mode="swm">
+    
+    
+    
+<diskConfig slot="1" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="2" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="3" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="4" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="5" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="6" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="7" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+<diskConfig slot="8" pid="UCS-HDD300GI2F105|SEAGATE"></diskConfig>
+
+
+
+<adaptorConfig slot="1" pid="UCSC-PCIE-CSC-02|Cisco Systems Inc">
+    
+    <adaptorFexLink port="1" peerPort="1" peerSlot="1" side="A" peerId="11" portType="pcie"/>
+    
+    <adaptorFexLink port="2" peerPort="1" peerSlot="1" side="B" peerId="12" portType="pcie"/>
+    
+    
+</adaptorConfig>
+
+
+
+
+
+<memoryConfig slot="1" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="2" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="3" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="4" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="5" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="6" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="7" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="8" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="9" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="10" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="11" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="12" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="13" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="14" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="15" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="16" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="17" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="18" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="19" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="20" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="21" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="22" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="23" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+<memoryConfig slot="24" pid="UCS-MR-1X162RU-A|0x80AD"></memoryConfig>
+
+
+
+<processorConfig slot="1" pid="UCS-CPU-E52609D|Intel(R) Corporation"></processorConfig>
+
+<processorConfig slot="2" pid="UCS-CPU-E52609D|Intel(R) Corporation"></processorConfig>
+
+
+    
+    <psuConfig slot="1" pid="UCSC-PSU1-770W|Cisco Systems Inc"></psuConfig>
+    
+    <psuConfig slot="2" pid="UCSC-PSU1-770W|Cisco Systems Inc"></psuConfig>
+    
+    
+</rackConfig>
+
+
+
+</apeXml>

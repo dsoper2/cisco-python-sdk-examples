@@ -1,0 +1,5 @@
+org,Template,profile,instances,UUID,Server-Pool,vNIC_placement,Boot_Policy,Maint_Policy,LAN_Policy,Mgmt_IP_Pool
+org-root,OpenStack_Controller,SP_OSP_Controller_,2,UUID_Pool,Openstack_Controller_Pool,Host_Infra,PXE_Boot,User_Ack,ComptrollerLAN,ext-mgmt
+org-root,OpenStack_Compute,SP_OSP_Compute_,4,UUID_Pool,Openstack_Compute_Pool,Host_Infra,PXE_Boot,User_Ack,ComptrollerLAN,ext-mgmt
+org-root,OpenStack_Storage,SP_OSP_Storage_,3,UUID_Pool,Openstack_Storage_Pool,Host_Infra,PXE_Boot,User_Ack,ComptrollerLAN,ext-mgmt
+org-root,OpenStack_Installer,SP_OSP_Installer_,1,UUID_Pool,Openstack_Installer_Pool,Host_Infra,PXE_Boot,User_Ack,InstallerLAN,ext-mgmt
